@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Russia</title>
+        <style>
+            body{
+                background-color: black;
+                color: green;
+            }
+            #input{
+                
+                border: none;
+                color: green;
+                outline: none;
+                font-size: 30px;
+                background-color: black;
+            }
+            div{
+                margin: 20px;
+            }
+            #container-data::before{
+                content: ">";
+                font-size: 30px;
+                font-weight: bolder;
+            }
+            ul{
+               list-style: none; 
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <div style="width: auto; display: flex; justify-content: center;">
+                <h2 id="status">Status</h2>
+            </div>
+            
+            <ul id="ul"></ul>
+            <form id="form">
+                <div id="container-data">
+                    <input id="input" autocomplete="off">
+                </div>
+                
+            </form>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
